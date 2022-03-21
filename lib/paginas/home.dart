@@ -3,8 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_feather_icons/flutter_feather_icons.dart';
 import 'package:flutter_vector_icons/flutter_vector_icons.dart';
 import 'package:page_transition/page_transition.dart';
-
-import '../constantes/const.dart';
+import 'package:tarea2/constantes/const.dart';
 import 'package:tarea2/paginas/albumpagina.dart';
 
 class PaginaPrincipal extends StatefulWidget {
