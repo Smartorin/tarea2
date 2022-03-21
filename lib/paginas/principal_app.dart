@@ -44,7 +44,7 @@ class _PrincipalAppState extends State<PrincipalApp> {
     );
   }
 
-  Widget getPaginas() {
+  Widget getPaginas() {//Este es el widget para mostrar al tocar los botones de abajo
     return IndexedStack(
       index: activeTab,
       children: [
@@ -81,7 +81,7 @@ class _PrincipalAppState extends State<PrincipalApp> {
     );
   }
 
-  Widget botonesFooter() {
+  Widget botonesFooter() { // Listado de botones que llevará la barra de abajo
     List items = [
       FeatherIcons.home,
       FeatherIcons.search,
@@ -89,9 +89,9 @@ class _PrincipalAppState extends State<PrincipalApp> {
       FeatherIcons.logIn
     ];
 
-    return Container(
+    return Container(//este es el container del la bara donde estan los botonesde home y favoritos
       height: 80,
-      decoration: BoxDecoration(color: Colors.lightBlue), //cambiar a negro
+      decoration: BoxDecoration(color: Colors.lightBlue), 
       child: Padding(
         padding: const EdgeInsets.only(left: 20, right: 20),
         child: Row(
